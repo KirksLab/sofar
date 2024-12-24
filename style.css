@@ -1,0 +1,508 @@
+body {
+    background-color: rgb(77, 178, 232);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 0 10px;
+}
+
+header>h3>a {
+    text-decoration: none;
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#linksHeader {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#linksHeader>a {
+    font-family: "Lexend Deca", serif;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+#linksHeader>a:hover {
+    padding-bottom: 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#linksHeader>button {
+    font-family: "Lexend Deca", serif;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 0.6rem;
+    margin: none;
+    border: none;
+    width: 6rem;
+}
+
+#linksHeader>button:hover {
+    background-color: rgb(181, 179, 179);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#linksHeader>button:active {
+    background-color: rgb(137, 137, 137);
+    transition: none;
+}
+
+#mentalHealthFishingImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mentalHealthFishingImg>h1 {
+    color: white;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    border-bottom: 3px solid white;
+    margin-top: 3rem;
+    padding: 8px 18px 8px 18px;
+}
+
+#mentalHealthFishingImg>img {
+    width: 100%;
+}
+
+.shitLife {
+    display: flex;
+}
+
+#paragraphShitLife {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 25rem;
+    width: 50%;
+}
+
+#paragraphShitLife>h2 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    width: 60%;
+    margin: 0;
+}
+
+#paragraphShitLife>p {
+    font-family: "Lexend Deca", serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    width: 60%;
+}
+
+#paragraphShitLife>p>a {
+    color: black;
+    text-decoration: none;
+}
+
+#paragraphShitLife>p>a:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#paragraphShitLife>p>a:active {
+    color: rgb(197, 197, 197);
+    border-bottom: 1px solid rgb(197, 197, 197);
+
+}
+
+#brainImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #440047;
+    width: 50%;
+    height: 25rem;
+}
+
+#brainImg>img {
+    height: 20rem;
+}
+
+.noMoreSad {
+    display: flex;
+}
+
+#paragraphNoMoreSad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 25rem;
+    width: 50%;
+}
+
+#paragraphNoMoreSad>h2 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    width: 60%;
+    margin: 0;
+}
+
+#paragraphNoMoreSad>p {
+    font-family: "Lexend Deca", serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    width: 60%;
+}
+
+#paragraphNoMoreSad>p>a {
+    color: black;
+    text-decoration: none;
+}
+
+#paragraphNoMoreSad>p>a:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+#paragraphNoMoreSad>p>a:active {
+    color:rgb(197, 197, 197);
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+#appleImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e27731;
+    height: 25rem;
+    width: 50%;
+}
+
+#appleImg>img {
+    height: 20rem;
+}
+
+.clientsMainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
+}
+
+.clientsMainContent>h4 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 100px 0 50px 0 ;
+}
+
+.clientsList {
+    display:flex;
+    gap: 5rem;
+    margin: 0 30px 100px 30px; 
+}
+
+.clientsList>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientsList>div>h5 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 30px 0 0 0;
+}
+
+.clientsList>div>p {
+    font-family: "Lexend Deca", serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+
+#clientHeloisa, #clientRamon, #clientKent {
+    border-radius: 100%;
+    margin-bottom: 20px;
+    height: 90px;
+    width: 90px;
+}
+
+.finalImages {
+    display: flex;
+}
+
+.finalImages>div {
+    width: 25%;
+    height: 12rem;
+}
+
+#firstFinalImages {
+    display: flex;
+    justify-content: center;
+    background-color: #d7d700;
+}
+
+#secondFinalImages {
+    display: flex;
+    justify-content: center;
+    background-color: #f12581;
+}
+
+#thirdFinalImages {
+    display: flex;
+    justify-content: center;
+    background-color: #5151e4;
+}
+
+#thirdFinalImages>img {
+    margin-left: 6%;
+    height: 11rem; 
+}
+
+#fourthFinalImages {
+    display: flex;
+    justify-content: center;
+    background-color: #3ac13a;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(77, 178, 232);
+    padding-top: 3rem;
+}
+
+#linksFooter {
+    display: flex;
+    gap: 3rem;
+}
+
+footer>h3>a {
+    text-decoration: none;
+    font-family: "Grenze Gotisch", serif;
+    font-size: 1.5rem;
+    color:rgb(14, 78, 74);
+}
+
+#linksFooter>p>a {
+    text-decoration: none;
+    font-family: "Lexend Deca", serif;
+    font-weight: 300;
+    color: rgb(14, 78, 74);
+}
+
+#linksFooter>p>a:hover {
+    color: rgb(14, 78, 74);
+    border-bottom: 1px solid rgb(14, 78, 74);
+}
+
+#iconsFooter {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+#iconsFooter>p>a>i {
+    color: rgb(14, 78, 74);
+}
+
+#iconsFooter>p>a>i:hover {
+    color: rgb(0, 0, 0);
+}
+
+#iconsFooter>p>a>i:active {
+    color: rgb(255, 255, 255);
+}
+
+#linksHeaderMobile {
+    display: none;
+    align-items: center;
+}
+
+#linksHeaderMobile>button {
+    color: white;
+    background-color: transparent;
+    font-size: 2rem;
+    border: none;
+    padding: 0;
+}
+
+#linksHeaderMobile>button:hover {
+    color: rgb(117, 117, 209);
+    cursor: pointer;
+}
+
+#linksHeaderMobile>button:hover {
+    color: rgb(117, 117, 209);
+    cursor: pointer;
+}
+
+#linksHeaderMobile>button:active {
+    color: rgb(0, 0, 0);
+}
+
+#appleImgMobile {
+    display: none;
+}
+
+#appleImgMobile>img {
+    width: 100%;
+}
+
+.finalImagesMobile {
+    display: none;
+    flex-direction: column;
+}
+
+.finalImagesMobile>div {
+    display: flex;
+}
+
+.finalImagesMobile>div>div>img {
+    width: 50%;
+}
+
+#firstFinalImagesMobile {
+    display: flex;
+    justify-content: center;
+    background-color: #d7d700;
+}
+
+#secondFinalImagesMobile {
+    display: flex;
+    justify-content: center;
+    background-color: #f12581;
+}
+
+#thirdFinalImagesMobile {
+    display: flex;
+    justify-content: center;
+    background-color: #5151e4;
+}
+
+#fourthFinalImagesMobile {
+    display: flex;
+    justify-content: center;
+    background-color: #3ac13a;
+}
+
+@media (max-width: 770px) {
+    #linksHeader {
+        display: none;
+    }
+
+    #linksHeaderMobile {
+        display: flex;
+    }
+
+    #mentalHealthFishingImg>h1 {
+        font-size: 1.3rem;
+    }
+
+    .shitLife {
+        flex-direction: column;
+    }
+
+    #paragraphShitLife {
+        width: 100%;
+    }
+
+    #brainImg {
+        width: 100%;
+    }
+
+    .noMoreSad {
+        flex-direction: column;
+    }
+
+    #paragraphNoMoreSad {
+        width: 100%;
+    }
+
+    #appleImg {
+        display: none;
+    }
+
+    #appleImgMobile {
+        display: flex;
+    }
+
+    .clientsMainContent {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .clientsList {
+        flex-direction: column;
+    }
+
+    .clientsList>div>p {
+        width: 60%;
+    }
+
+    .finalImages {
+        display: none;
+    }
+
+    .finalImagesMobile {
+        display: flex;
+    }
+}
+
+.caution {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000dc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.caution>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 2rem 5rem;
+    width: 40rem;
+    height: auto;
+}
+
+.caution>div>img {
+    width: 8rem;
+}
+
+.caution>div>h2 {
+    color: rgb(255, 0, 0);
+}
+
+#exit {
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid gray;
+}
+
+#exit:hover {
+    color: #ffffff;
+    background-color: #ffffff00;
+}
